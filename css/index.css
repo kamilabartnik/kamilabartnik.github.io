@@ -3,7 +3,8 @@
   --main-white: #f0f0f0;
   --main-red: #113a16;
   --main-blue: #d6e6d6;
-  --main-gray: #303841;
+  --main-gray: #353d35;
+  --main-redred: #57522a;
 }
 
 /* Base reset */
@@ -153,15 +154,15 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: var(--main-gray);
+  /*background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);*/
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-blue);
 }
 
 /* Projects section */
